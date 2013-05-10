@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "NO HOG Officers Only"
+AuthUserFile "/home/neworlea/.htpasswds/public_html/officers/passwd"
+require valid-user

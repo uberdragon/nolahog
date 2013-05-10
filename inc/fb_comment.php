@@ -1,0 +1,2 @@
+<h2>Add your Comments:</h2><br>
+<div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=209015612449414&amp;xfbml=1"></script><fb:comments href="<?=$url?>" num_posts="10" width="500"></fb:comments>

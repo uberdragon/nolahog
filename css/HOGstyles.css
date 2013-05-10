@@ -1,0 +1,313 @@
+@font-face { font-family: Haettenschweiler; src: url('Haettenschweiler.ttf'); } 
+body,html {
+  margin:0;
+  padding:0;
+  color:#000;
+  background-image:url('/images/design/background-fleur-di-lis.jpg');
+	font-family: arial, helvetica, sans-serif;
+	font-size:10pt;
+
+}
+
+a {
+  text-decoration:none;
+  color:#F95602;
+}
+a:hover {
+  text-decoration:underline;
+}
+p {
+  padding-right:5px;
+}
+h1 {
+  text-align:center;
+  font-size:30px;
+  font-family: Haettenschweiler;
+  letter-spacing:1px;
+  text-transform: uppercase;
+  color:#444;
+}
+h2 { 
+  width:97%;
+  background-color:#D3D3D3;
+  font-size:14px;
+  padding:3px;
+  color:Dark-Gray;
+}
+.h2 { 
+  width:97%;
+  background-color:#D3D3D3;
+  font-size:12pt;
+  padding:3px;
+}
+h3 {
+  text-align:center;
+  padding-left:25px;
+  padding-right:25px;
+}
+#container {
+  width:1024px;
+  margin-left:auto;
+  margin-right:auto;
+  
+}
+#header {
+  width:1024px;
+  height:278px;
+  background-image:url('/images/design/header.png');  
+  margin-top:10px;
+}
+#middleleft {
+/*  background-image:url('/images/design/middle-background.png');  
+  background-repeat:repeat-y;
+*/
+  width:100%
+  position:relative
+  right:50%;
+  float:left;
+}
+#middleright {
+  background-image:url('/images/design/middle-background.png');  
+  background-repeat:repeat-y;
+	clear:left;
+	float:left;
+	width:100%;
+	overflow:hidden;
+}
+#menu {
+  float:left;
+  width:261px;
+  position:relative;
+  left:
+  overflow:hidden;
+}
+#content {
+  float:left;
+  width:763px;
+  position:relative;
+  overflow:hidden;
+}
+#content p {
+  margin-right:30px;
+  margin-left:10px;
+  text-align:justify;
+}
+li {
+  list-style-image: url('/images/design/arrow.png');
+  padding-right:30px;
+  padding-bottom:5px;
+}
+#footer {
+  clear:both;
+  width:1024px;
+  height:116px;
+  background-image:url('/images/design/footer-background.png');
+  z-index:1000;
+}
+#footer span {
+visibility:hidden;
+text-decoration:none;
+}
+/* LEFT NAVIGATION BUTTONS */
+.cssnav	{
+			position:relative;
+			font-family: arial, helvetica, sans-serif;
+      background-image:  url(/images/design/menu/menu-off.png); 
+			background-repeat: no-repeat;
+			white-space: nowrap;
+			display: block;
+			width: 208px;
+			height: 23px;
+			margin-left: 25px; 
+
+}
+.cssnav a {
+			display: block;
+			color: #000000;
+			font-size: 14pt;
+			width: 208px;
+			height: 23px;
+			display: block;
+			float: left;
+			color: black; 
+			text-decoration: none;
+}
+
+.cssnav img {width: 208px; height: 23px; border: 0; margin-left:25px; margin-right:25px; }
+* html a:hover {visibility:visible}
+.cssnav a:hover { background-image:  url(/images/design/menu/menu-on.png); }
+
+.cssnav span {
+			position: absolute;
+			left: 35px;
+			top: 0px;
+			margin: 0px;
+			padding: 0px;
+			cursor: pointer;
+			width: 149px;
+			height: 14px;
+			font-size:14pt;
+}
+#selectedNav {
+      background-image:  url(/images/design/menu/menu-selected.png); 
+
+}
+/* END OF LEFT NAVIGATION */
+div.loader{
+  background:url(/images/design/pins/hog-pin-over.png) no-repeat;
+  background:url(/images/design/pins/la-pin-over.png) no-repeat;
+  background:url(/images/design/pins/facebook-pin-over.png) no-repeat;
+  background:url(/images/design/pins/nohd-pin-over.pngimages/hover4.gif) no-repeat;
+  background:url(/images/design/pins/twitterhog-pin-over.png) no-repeat;
+  background:url(/images/design/pins/motorcycle-pin-over.png) no-repeat;
+
+}
+/* FOOTER NAVIGATION "PINS" */
+a.hogpin_roll{
+	width:97px;
+	height:86px;
+	display:block;
+	background-image:url('/images/design/pins/hog-pin.png');
+  margin:5px 15px 0px 40px;
+  text-decoration:none;
+}
+a.hogpin_roll:hover{
+	width:97px;
+	height:86px;
+	display:block;
+	background-image:url('/images/design/pins/hog-pin-over.png');
+  margin:5px 15px 0px 40px;
+  text-decoration:none;
+}
+
+a.lapin_roll{
+	width:96px;
+	height:80px;
+	display:block;
+	background-image:url(/images/design/pins/la-pin.png);
+  margin:10px 15px 0px 50px;
+  text-decoration:none;
+}
+a.lapin_roll:hover{
+	width:96px;
+	height:80px;
+	display:block;
+	background-image:url(/images/design/pins/la-pin-over.png);
+  margin:10px 15px 0px 50px;
+  text-decoration:none;
+}
+a.facebookpin_roll{
+	width:73px;
+	height:79px;
+	display:block;
+	background-image:url(/images/design/pins/facebook-pin.png);
+  margin:10px 15px 0px 50px;
+  text-decoration:none;
+}
+a.facebookpin_roll:hover{
+	width:73px;
+	height:79px;
+	display:block;
+	background-image:url(/images/design/pins/facebook-pin-over.png);
+  margin:10px 15px 0px 50px;
+  text-decoration:none;
+}
+a.nolahdpin_roll{
+	width:98px;
+	height:86px;
+	display:block;
+	background-image:url(/images/design/pins/nohd-pin.png);
+  margin:10px 15px 0px 50px;
+  text-decoration:none;
+}
+a.nolahdpin_roll:hover{
+	width:98px;
+	height:86px;
+	display:block;
+	background-image:url(/images/design/pins/nohd-pin-over.png);
+  margin:10px 15px 0px 50px;
+  text-decoration:none;
+}
+a.twitterpin_roll{
+	width:111px;
+	height:79px;
+	display:block;
+	background-image:url(/images/design/pins/twitterhog-pin.png);
+  margin:10px 15px 0px 50px;
+  text-decoration:none;
+}
+a.twitterpin_roll:hover{
+	width:111px;
+	height:79px;
+	display:block;
+	background-image:url(/images/design/pins/twitterhog-pin-over.png);
+  margin:10px 15px 0px 50px;
+  text-decoration:none;
+}
+a.motorcyclepin_roll{
+	width:122px;
+	height:89px;
+	display:block;
+	background-image:url(/images/design/pins/motorcycle-pin.png);
+  margin:0px 15px 0px 50px;
+  text-decoration:none;
+}
+a.motorcyclepin_roll:hover{
+	width:122px;
+	height:89px;
+	display:block;
+	background-image:url(/images/design/pins/motorcycle-pin-over.png);
+  margin:0px 15px 0px 50px;
+  text-decoration:none;
+}
+/* top right bottom left */
+/* END FOOTER NAVIGATION "PINS" */
+
+/* Officer Listings */
+
+ul.officer {
+  padding-bottom:5px;
+  margin-bottom:10px;
+  list-style:none;
+  padding-right:20px;
+  min-height:170px;
+ 
+}
+ul.officer li.title {
+  font-size:12pt;
+  list-style:none;
+}
+ul.officer li.img img {
+  max-height:125px;
+  list-style:none;
+  display:inline;
+  float:left; 
+  margin-right:15px;
+}
+ul.officer li img {
+  list-style:none;
+}
+
+ul.officer ul.info {
+  padding-left:5px;
+  list-style:none;
+}
+hr.officer {
+  display:none;
+}
+
+ul.officer li.officerInfo {
+  list-style:none;
+}
+ul.officer li.officerInfo .officerName {
+  font-size:14pt;
+  list-style:none;
+}
+
+ul.officer li.officerInfo img {
+  max-height:125px;
+  list-style:none;
+  display:inline;
+  text-align:left;
+}
+.align-left { float:left; margin: 0 15px 15px 0; }
